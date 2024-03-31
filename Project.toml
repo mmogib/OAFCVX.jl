@@ -1,0 +1,13 @@
+name = "OAFCVX"
+uuid = "1d20878e-ba59-49f4-a900-7e55f9ca27c0"
+authors = ["Mohammed Alshahrani <mmogib@gmail.com> and contributors"]
+version = "0.0.1-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
