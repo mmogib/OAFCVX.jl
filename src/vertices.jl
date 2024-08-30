@@ -65,6 +65,7 @@ function getVertex(::Type{IdealPointVertex}, options::VertexOptions)
         end |> Y -> sort(Y, by = x -> x[4])
     rv = VkwithYI[1]
     v = rv[1]
+
     vindx = rv[2]
     return v, vindx, options.t
 end
